@@ -1,0 +1,4 @@
+-----------------ANALYSIS FILE-----------------------
+The problem we face here is to encrypt a program (We want a simple encryption, like XORing with a constant key). The real-life applications include malware writing, 
+and anti reversing. The idea here is to have the encrypted payload, which is not run, and a small piece of code that decrypts the payload and runs it.  We'll do this by 
+ writing the payload to a file, decrypting it using a small piece of code, running the file, and deleting the file.
